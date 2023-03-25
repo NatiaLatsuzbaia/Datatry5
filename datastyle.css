@@ -1,0 +1,134 @@
+@font-face{
+  font-family: "Inter";
+ src: url(./Data/Fonts/Inter.ttf);
+}
+
+*{
+box-sizing: border-box;
+}
+
+h1{
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+}
+
+label{
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+}
+
+.a2{
+margin-left: 160px;
+}
+
+.a1 {
+width: 1160px;
+display: flex;
+justify-content: space-between;
+text-align: left; 
+}
+
+.ID{
+width: 200px;
+height: 45px;
+border-radius: 5px;
+border: 1px solid #E0E0E0;
+
+}
+.Title{
+width: 600px;
+height: 45px;
+border-radius: 5px;
+border: 1px solid #E0E0E0;
+
+}
+.Created-at{
+width: 200px;
+height: 45px;
+border-radius: 5px;
+border: 1px solid #E0E0E0;
+
+}
+.submit{
+width: 115px;
+height: 45px;
+border-radius: 5px;
+background-color: #FFD43A;
+border: 1px solid #E0E0E0;
+
+}
+.submit{
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+border:none;
+ 
+}
+
+table, th, td {
+border: 1px solid #E0E0E0;
+border-collapse: collapse;
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+text-align: center; 
+padding-left: 15px;
+
+}
+
+.Edit{
+width: 115px;
+height:30px;
+background-color: #FFD43A;
+border-radius: 5px;
+border: none;
+margin-right: 5px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+
+}
+
+.Delete{
+width: 115px;
+height:30px;
+color: #FFFFFF;
+background-color: #E84949;
+border-radius: 5px;
+border: none;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+
+}
+
+td{
+height:50px;
+text-align: center;
+}
+
+.Lorem{
+text-align: left;
+padding-right: 5px;
+}
+
+thead{
+background-color: #F9F9F9;
+}
+
+.left{
+  text-align: start;
+}
